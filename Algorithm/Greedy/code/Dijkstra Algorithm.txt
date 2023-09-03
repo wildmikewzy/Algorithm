@@ -1,0 +1,5 @@
+The approach:
+    if(d[u]+c(u,v)<d[v])
+        d[v]=d[u]+c(u,v);
+The strategy:
+    Use iterator!采用迭代的方法，遍历所有中间节点，找到最短路径！
