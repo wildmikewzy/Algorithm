@@ -7,7 +7,6 @@
 #include<set>
 using namespace std;
 const int maxn=1e3+1;
-
 class Graph{
 public:
     map<int,vector<int>> adj;
@@ -115,6 +114,5 @@ int main()
     for(auto &m:answer)
         cout<<m<<" ";
     cout<<endl;
-    
     return 0;
 }
